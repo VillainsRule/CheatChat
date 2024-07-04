@@ -1,0 +1,13 @@
+# node internals
+node_modules
+bun.lockb
+
+# mac internals
+.DS_Store
+
+# protected values
+db
+config.js
+
+# production code
+backend/public

@@ -1,0 +1,39 @@
+.errorContainer {
+    background: #f4f7fe;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorBox {
+    background: white;
+    border-radius: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.errorBang,
+.errorBang > path {
+    color: rgb(85, 53, 38);
+    font-size: 70px;
+    margin-top: 40px;
+}
+
+.errorHeader {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.errorMessage {
+    font-size: 23px;
+    margin-top: -5px;
+    margin-bottom: 40px;
+    padding: 10px;
+}

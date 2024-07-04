@@ -1,0 +1,21 @@
+{
+    "name": "cheatchat",
+    "type": "module",
+    "scripts": {
+        "build": "cd ../frontend && npm run build",
+        "start": "node src/main.js",
+        "dev": "npx nodemon src/main.js"
+    },
+    "dependencies": {
+        "axios": "^1.6.8",
+        "discord.js": "^14.14.1",
+        "express": "^4.19.2",
+        "express-session": "^1.18.0",
+        "express-ws": "^5.0.2"
+    },
+    "imports": {
+        "#config": "../config.js",
+        "#bot/*": "./src/bot/*.js",
+        "#ws/*": "./src/ws/*.js"
+    }
+}
